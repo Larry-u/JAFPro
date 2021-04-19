@@ -36,6 +36,10 @@ conda activate JAFPro
 
 ## DanceVideo Dataset
 
+<div style="text-align: center">
+<img src="media/DanceVideo_grid_vis.png" width="1080"/><br>
+</div>
+
 Our DanceVideo dataset consists of 1651 dance videos in the wild with static background. Each video has a length of two seconds with 15FPS (30 frames in total). The resolution of all videos is 256x256. You can download the whole dataset through https://drive.google.com/file/d/1xlybcxZXcQUCgUuq1K2FLaVGSr8d_NJW/view?usp=sharing
 
 
