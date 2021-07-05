@@ -118,11 +118,10 @@ opt['smpl_root'] = '/your/path/to/DanceVideo/smpls'
 opt['mask_root'] = '/your/path/to/DanceVideo/masks'
 opt['data_root'] = '/your/path/to/DanceVideo/images'
 ```
-Then,
-
-```
-xxx
-```
+Then, train the texture accumulation model by running the text_accu_LSTM.py for 5000 iterations. <br>
+Next, load the pretrained weight for texture accumulation, and run text_inpatin_convLSTM.py for 20000 iterations. <br>
+Next, load the pretrained weight in the previous training, and run inpaint_global_convLSTM_FGAN.py for 20000 iterations. <br>
+Finally, load the pretrained weight in the previous training, and run convLSTM_flowpro_Iinterval.py for 42000 iterations.
 
 
 
